@@ -8,7 +8,10 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
+     <div class="green">This is a Vite + Vue 3 project.</div>
+       You can start editing to see some magic happen!
+       <br />
+       Check out the official docs for more information on how to get started.
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
